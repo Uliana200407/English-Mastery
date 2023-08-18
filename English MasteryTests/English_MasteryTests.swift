@@ -6,7 +6,9 @@
 //
 
 import XCTest
-@testable import English_Mastery
+//import Firebase
+
+//@testable import English_Mastery
 
 final class English_MasteryTests: XCTestCase {
 
