@@ -1,9 +1,4 @@
-//
-//  User.swift
-//  English Mastery
-//
-//  Created by mac on 20.06.2023.
-//
+
 
 import SwiftUI
 import Foundation
@@ -12,7 +7,7 @@ struct User: Identifiable, Codable {
     let id: String
     let name: String
     let email: String
-    let selectedDate: Date // New field for selected date
+    let selectedDate: Date
     
     var initials: String {
         let formatter = PersonNameComponentsFormatter()

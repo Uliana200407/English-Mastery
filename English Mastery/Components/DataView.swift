@@ -1,9 +1,3 @@
-//
-//  DataView.swift
-//  English Mastery
-//
-//  Created by mac on 20.06.2023.
-//
 
 import SwiftUI
 

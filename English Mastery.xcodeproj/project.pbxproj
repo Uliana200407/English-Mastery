@@ -46,9 +46,6 @@
 		04D245DE2A3F9E0D0090D16F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D245DD2A3F9E0D0090D16F /* ContentView.swift */; };
 		04D245E02A3F9E0F0090D16F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D245DF2A3F9E0F0090D16F /* Assets.xcassets */; };
 		04D245E32A3F9E0F0090D16F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D245E22A3F9E0F0090D16F /* Preview Assets.xcassets */; };
-		04D245ED2A3F9E0F0090D16F /* English_MasteryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D245EC2A3F9E0F0090D16F /* English_MasteryTests.swift */; };
-		04D245F72A3F9E0F0090D16F /* English_MasteryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D245F62A3F9E0F0090D16F /* English_MasteryUITests.swift */; };
-		04D245F92A3F9E0F0090D16F /* English_MasteryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D245F82A3F9E0F0090D16F /* English_MasteryUITestsLaunchTests.swift */; };
 		04D2460E2A406D140090D16F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D2460D2A406D140090D16F /* LoginView.swift */; };
 		04D246122A4077990090D16F /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D246112A4077990090D16F /* InputView.swift */; };
 		04D246142A40FB8D0090D16F /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D246132A40FB8D0090D16F /* RegistrationView.swift */; };
@@ -79,7 +76,7 @@
 		04498A642A48728A00458CEA /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		04498A662A48950900458CEA /* TabCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCurve.swift; sourceTree = "<group>"; };
 		046D8F392A94CB8C006195E8 /* FlashcardContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardContent.swift; sourceTree = "<group>"; };
-		046DA0842A4637BC0021DD2D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "English Mastery/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		046DA0842A4637BC0021DD2D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		04847A992A73F356002B638B /* BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
 		04CA97702A41AE25002CB788 /* DataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataView.swift; sourceTree = "<group>"; };
 		04CA97722A41B720002CB788 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -90,10 +87,7 @@
 		04D245DF2A3F9E0F0090D16F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04D245E22A3F9E0F0090D16F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04D245E82A3F9E0F0090D16F /* English MasteryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "English MasteryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04D245EC2A3F9E0F0090D16F /* English_MasteryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = English_MasteryTests.swift; sourceTree = "<group>"; };
 		04D245F22A3F9E0F0090D16F /* English MasteryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "English MasteryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04D245F62A3F9E0F0090D16F /* English_MasteryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = English_MasteryUITests.swift; sourceTree = "<group>"; };
-		04D245F82A3F9E0F0090D16F /* English_MasteryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = English_MasteryUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		04D2460D2A406D140090D16F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		04D246112A4077990090D16F /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 		04D246132A40FB8D0090D16F /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
@@ -175,12 +169,9 @@
 		04D245CF2A3F9E0D0090D16F = {
 			isa = PBXGroup;
 			children = (
-				046DA0842A4637BC0021DD2D /* GoogleService-Info.plist */,
 				04DD86802A59FC480041D0F4 /* Views */,
 				04D246062A406B0B0090D16F /* App */,
 				04D245DA2A3F9E0D0090D16F /* English Mastery */,
-				04D245EB2A3F9E0F0090D16F /* English MasteryTests */,
-				04D245F52A3F9E0F0090D16F /* English MasteryUITests */,
 				04D245D92A3F9E0D0090D16F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -215,23 +206,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		04D245EB2A3F9E0F0090D16F /* English MasteryTests */ = {
-			isa = PBXGroup;
-			children = (
-				04D245EC2A3F9E0F0090D16F /* English_MasteryTests.swift */,
-			);
-			path = "English MasteryTests";
-			sourceTree = "<group>";
-		};
-		04D245F52A3F9E0F0090D16F /* English MasteryUITests */ = {
-			isa = PBXGroup;
-			children = (
-				04D245F62A3F9E0F0090D16F /* English_MasteryUITests.swift */,
-				04D245F82A3F9E0F0090D16F /* English_MasteryUITestsLaunchTests.swift */,
-			);
-			path = "English MasteryUITests";
-			sourceTree = "<group>";
-		};
 		04D246062A406B0B0090D16F /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -252,6 +226,7 @@
 		04D246082A406B2A0090D16F /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				046DA0842A4637BC0021DD2D /* GoogleService-Info.plist */,
 				04D2460B2A406B990090D16F /* Authentification */,
 				04D2460C2A406BAD0090D16F /* Profile */,
 				04D2460A2A406B6F0090D16F /* Root */,
@@ -492,7 +467,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04D245ED2A3F9E0F0090D16F /* English_MasteryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,8 +474,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04D245F72A3F9E0F0090D16F /* English_MasteryUITests.swift in Sources */,
-				04D245F92A3F9E0F0090D16F /* English_MasteryUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

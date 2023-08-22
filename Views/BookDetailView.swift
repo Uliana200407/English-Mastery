@@ -1,9 +1,4 @@
-//
-//  BookDetailView.swift
-//  English Mastery
-//
-//  Created by mac on 28.07.2023.
-//
+
 import SwiftUI
 
 struct BookDetailView: View {

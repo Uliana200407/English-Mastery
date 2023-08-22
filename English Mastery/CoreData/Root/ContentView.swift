@@ -1,9 +1,4 @@
-//
-//  ContentView.swift
-//  English Mastery
-//
-//  Created by mac on 18.06.2023.
-//
+
 
 import SwiftUI
 
@@ -22,7 +17,6 @@ struct ContentView: View {
             }
          
         }
-      //  .padding()
     }
 }
 

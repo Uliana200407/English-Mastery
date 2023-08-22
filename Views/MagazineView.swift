@@ -1,9 +1,3 @@
-//
-//  MagazineView.swift
-//  English Mastery
-//
-//  Created by mac on 08.07.2023.
-//
 
 import SwiftUI
 

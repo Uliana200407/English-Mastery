@@ -1,9 +1,4 @@
-//
-//  InputView.swift
-//  English Mastery
-//
-//  Created by mac on 19.06.2023.
-//
+
 
 import SwiftUI
 
