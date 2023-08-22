@@ -5,4 +5,8 @@
 _**Elevate Your Language Proficiency with Ease!**_
 
 Introducing Mastery English: the revolutionary SwiftUI-based mobile app that transforms language learning into a captivating adventure. Elevate your English proficiency, access an online library of captivating English books, and stay updated with BBC news. Enjoy interactive tests and expand your vocabulary effortlessly with engaging flashcards.
-
+### Registration and authorization views
+<div style="display: flex; justify-content: space-between;">
+    <img src="https://i.imgur.com/oFrqpEi.png" alt="Registration view" title="Registration view" width="45%">
+    <img src="https://i.imgur.com/ChPspvx.png" alt="Authorization view" title="Registration view" width="45%">
+</div>
