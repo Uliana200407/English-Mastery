@@ -15,35 +15,46 @@ struct MagazineView: View {
 
     var body: some View {
         NavigationView {
-            
-            VStack(spacing: 15){
-                HStack{
+            VStack(spacing: 15) {
+                HStack {
                     Text("Search |")
                         .font(.largeTitle.bold())
                     Text ("Recommended" )
                         .fontWeight (.semibold)
-                        .padding (.leading, 15) . foregroundColor (Color("Color 4")) .offset (y: 2)
+                        .padding (.leading, 15)
+                        .foregroundColor (Color("Color 4"))
+                        .offset(y: 2)
                 }
-                .frame(maxWidth: .infinity,alignment: .leading)
-                .padding(.horizontal,15)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(.horizontal, 15)
                 
                 TagsView()
+                
                 ScrollView(.vertical, showsIndicators: false) {
                     VStack(spacing: 15) {
-                        ForEach(BuiltInBooks) {
-                            BookCardView($0)
-                            
+                        ForEach(filteredAndSortedBooks) { book in
+                            BookCardView(book)
                         }
                     }
                     .padding (.horizontal, 79)
-                    .padding (.vertical,20)
+                    .padding (.vertical, 20)
                 }
-                    .coordinateSpace (name: "SCROLLVIEW")
-                    .padding (.top, 15)
-                
+                .coordinateSpace (name: "SCROLLVIEW")
+                .padding (.top, 15)
             }
-            
             .navigationBarTitle("", displayMode: .large)
+        }
+    }
+    
+    var filteredAndSortedBooks: [Books] {
+        let filteredBooks = BuiltInBooks.filter { book in
+            book.tags.contains(activeTag) || activeTag == "All"
+        }
+        
+        if activeTag == "Biography" {
+            return filteredBooks.sorted(by: { $0.bookYear < $1.bookYear })
+        } else {
+            return filteredBooks
         }
     }
     @ViewBuilder
@@ -181,7 +192,7 @@ struct RatingView: View {
     }
 }
 var tags:[String]=[
-    "History","Classical","Biography","Det ective","Adventure","Fairy Tales","Fantasy","Cartoon",
+    "History","Classical","Biography","Detective","Adventure","Fairy Tales","Fantasy","Cartoon",
 ]
 struct MagazineView_Previews: PreviewProvider {
     static var previews: some View {
