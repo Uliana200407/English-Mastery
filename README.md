@@ -26,5 +26,33 @@ Introducing Mastery English: the revolutionary SwiftUI-based mobile app that tra
   </tr>
 </table>
 
-### BBC parsing 
+## Functionality List
+
+- **Book Library:** Explore a collection of English books.
+- **Read and Download:** Read books online and download them for offline access.
+- **Interactive Tests:** Take tests and earn scores to track your progress.
+- **Idioms Flashcards:** Study English idioms with flashcards.
+- **BBC News Updates:** Stay updated with the latest news from BBC.
+- **User Profiles:** Register and manage your profile using Firebase database.
+
+### HTML content-parsing from BBC site
+```
+ func parseHTML(_ html: String) throws {
+        let doc = try SwiftSoup.parse(html)
+        let promoBlocks = try doc.select(".gs-c-promo")
+        
+        newsItems = try promoBlocks.map { block in
+            let title = try block.select(".gs-c-promo-heading").text()
+            let linkString = try block.select("a").attr("href")
+            let imageUrlString = try block.select("img").attr("src")
+            let fullArticleLinkString = try block.select("a").attr("href") 
+            
+            let link = URL(string: linkString)!
+            let imageUrl = URL(string: imageUrlString)
+            let fullArticleLink = URL(string: fullArticleLinkString)!
+            
+            return NewsItem(title: title, link: link, imageUrl: imageUrl, fullArticleLink: fullArticleLink)
+        }
+    }
+```
 
