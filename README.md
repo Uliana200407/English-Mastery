@@ -10,3 +10,9 @@ Introducing Mastery English: the revolutionary SwiftUI-based mobile app that tra
     <img src="https://i.imgur.com/oFrqpEi.png" alt="Registration view" title="Registration view" width="45%">
     <img src="https://i.imgur.com/ChPspvx.png" alt="Authorization view" title="Registration view" width="45%">
 </div>
+<div style="display: flex;">
+  <img src="https://i.imgur.com/Dn7xGdv.png" alt="Telephone Image 1" style="flex: 25%; padding: 5px;">
+  <img src="https://i.imgur.com/rYXL1ui.png" alt="Telephone Image 2" style="flex: 25%; padding: 5px;">
+  <img src="https://i.imgur.com/NzUhZa5.png" alt="Telephone Image 3" style="flex: 25%; padding: 5px;">
+  <img src="https://i.imgur.com/CdJKqWz.png" alt="Telephone Image 4" style="flex: 25%; padding: 5px;">
+</div>
