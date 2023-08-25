@@ -26,6 +26,11 @@ Introducing Mastery English: the revolutionary SwiftUI-based mobile app that tra
   </tr>
 </table>
 
+### Components of the ios application
+<td align="center">
+  <img src="https://i.imgur.com/DfJsfbD.png" alt="Telephone Image 3" style="max-width: 100px;">
+</td>
+
 ## Functionality List
 
 - **Book Library:** Explore a collection of English books.
@@ -36,7 +41,7 @@ Introducing Mastery English: the revolutionary SwiftUI-based mobile app that tra
 - **User Profiles:** Register and manage your profile using Firebase database.
 ### Colors & Typography
 <td align="center">
-  <img src="https://i.imgur.com/oA3RrhO.png" alt="Telephone Image 3" style="max-width: 100px;">
+  <img src="https://i.imgur.com/tyaVX1Y.png" alt="Telephone Image 3" style="max-width: 100px;">
 </td>
 
 ### HTML content-parsing from BBC site
