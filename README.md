@@ -34,7 +34,8 @@ Introducing Mastery English: the revolutionary SwiftUI-based mobile app that tra
 - **Idioms Flashcards:** Study English idioms with flashcards.
 - **BBC News Updates:** Stay updated with the latest news from BBC.
 - **User Profiles:** Register and manage your profile using Firebase database.
-
+### Colors & Typography
+<td align="center"><strong></strong><br><img src="https://i.imgur.com/oA3RrhO.png" alt="Telephone Image 3"></td>
 ### HTML content-parsing from BBC site
 ```
  func parseHTML(_ html: String) throws {
