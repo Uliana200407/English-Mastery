@@ -65,4 +65,7 @@ Introducing Mastery English: the revolutionary SwiftUI-based mobile app that tra
         }
     }
 ```
+### Video demonstration
+
+[Tap to watch the video](https://youtu.be/sSr6kcCJHhc?si=1fQWkhCB9W3YChPF)
 
